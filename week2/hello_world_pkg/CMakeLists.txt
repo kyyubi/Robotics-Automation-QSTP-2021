@@ -163,31 +163,31 @@ include_directories(
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-catkin_install_python(PROGRAMS scripts/hello_pub.py
+catkin_install_python(PROGRAMS scripts/1/hello_pub.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
- catkin_install_python(PROGRAMS scripts/world_pub.py
+ catkin_install_python(PROGRAMS scripts/1/world_pub.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
- catkin_install_python(PROGRAMS scripts/hello_world.py
+ catkin_install_python(PROGRAMS scripts/1/hello_world.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  ) 
-catkin_install_python(PROGRAMS scripts/server.py
+catkin_install_python(PROGRAMS scripts/2/server.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  ) 
-catkin_install_python(PROGRAMS scripts/client.py
+catkin_install_python(PROGRAMS scripts/2/2_client.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
-catkin_install_python(PROGRAMS scripts/radius_pub.py
+catkin_install_python(PROGRAMS scripts/3/radius_pub.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
-catkin_install_python(PROGRAMS scripts/ang_vel_server.py
+catkin_install_python(PROGRAMS scripts/3/ang_vel_server.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
-catkin_install_python(PROGRAMS scripts/turtle_bot_client.py
+catkin_install_python(PROGRAMS scripts/3/turtle_bot_client.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
-catkin_install_python(PROGRAMS scripts/turtle_bot_path.py
+catkin_install_python(PROGRAMS scripts/3/turtle_bot_infinity.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 ## Mark executables for installation
