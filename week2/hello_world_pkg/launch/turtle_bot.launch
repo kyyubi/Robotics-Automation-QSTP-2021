@@ -1,0 +1,4 @@
+<launch>
+	<node name="radius_node" pkg="hello_world_pkg" type="radius_pub.py"/>
+	<node name="turtle_bot_publisher" pkg="hello_world_pkg" type="turtle_bot_path.py" output="screen"/>
+</launch>
